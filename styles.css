@@ -1,12 +1,11 @@
-style
-h1, h2, p {
+style 
+ h1, h2, p {
   text-align: center;
-}
-
+} 
 #list {
-  background-color: burlywood;
-  margin-right: auto;
-  margin-left: auto;
-  width: 500px;
-  text-align: center;
+    background-color: burlywood;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+    text-align: center;
 }
