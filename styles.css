@@ -1,18 +1,50 @@
-style 
- h1, h2, p {
+h1, h2, p {
   text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-} 
-#list {
-    background-color: burlywood;
-    margin-right: auto;
-    margin-left: auto;
-    width: 500px;
-    text-align: center;
 }
-input {
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+main {
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  line-height: 1.6;
+}
+
+#list {
+  background-color: burlywood;
+  margin: auto;
+  width: 500px;
   text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-} 
+  padding: 20px;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #a0522d; /* A shade of sienna */
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%; /* Ensures the image is responsive */
+  height: auto;
+  display: block; /* Removes extra space below the image */
+  margin: 20px auto; /* Centers the image */
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #eee;
+}
