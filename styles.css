@@ -1,6 +1,8 @@
 style 
  h1, h2, p {
   text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 } 
 #list {
     background-color: burlywood;
@@ -9,3 +11,8 @@ style
     width: 500px;
     text-align: center;
 }
+input {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+} 
